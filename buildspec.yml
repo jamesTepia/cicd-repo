@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8  # You can change the runtime version based on your requirements.
+  build:
+    commands:
+      - echo "Building the project..."
+      - echo "This is a sample build message."
