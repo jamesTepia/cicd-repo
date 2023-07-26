@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto8  # You can change the runtime version based on your requirements.
+      nodejs: 14
   build:
     commands:
       - echo "Building the project..."
